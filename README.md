@@ -8,6 +8,11 @@ The model takes:
 - 6 low-resolution images of the knee (different views)
 - and reconstructs 1 high-resolution image
 
+The entire training process is based on preprocessed datasets stored in:
+
+- lowresolution.npy – containing low-quality multi-view inputs
+- highresolution.npy – containing corresponding high-quality target images
+
 This approach leverages multi-view information to improve reconstruction quality compared to single-image super-resolution methods.
 
 ## Problem Statement
