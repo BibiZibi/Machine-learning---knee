@@ -10,8 +10,8 @@ The model takes:
 
 The entire training process is based on preprocessed datasets stored in:
 
-- lowresolution.npy – containing low-quality multi-view inputs
-- highresolution.npy – containing corresponding high-quality target images
+- `lowresolution.npy` – containing low-quality multi-view inputs
+- `highresolution.npy` – containing corresponding high-quality target images
 
 This approach leverages multi-view information to improve reconstruction quality compared to single-image super-resolution methods.
 
